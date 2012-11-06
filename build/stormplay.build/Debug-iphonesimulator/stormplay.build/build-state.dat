@@ -1,0 +1,1773 @@
+Tstormplay
+v7
+r0
+t360575863.285547
+cCheck dependencies
+cProcessInfoPlistFile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/Info.plist stormplay-Info.plist
+cCompileXIB /Users/admin/Desktop/yubo/stormplay/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/stormplay.app/doxyfile sdl/include/doxyfile
+cCpResource build/Debug-iphonesimulator/stormplay.app/SDL_config.h.default sdl/include/SDL_config.h.default
+cCpResource build/Debug-iphonesimulator/stormplay.app/SDL_config.h.in sdl/include/SDL_config.h.in
+cCompileXIB /Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib
+cProcessPCH /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch.gch stormplay_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch.gch stormplay_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/main.o /Users/admin/Desktop/yubo/stormplay/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayAppDelegate.o /Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/EAGLView.o /Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/playAudio.o /Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o /Users/admin/Desktop/yubo/stormplay/utils.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_events.o /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_quit.o /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_fatal.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_utils.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syscond.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_sysmutex.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syssem.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systhread.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_thread.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_timer.o /Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systimer.o /Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayViewController.o /Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay normal i386
+cGenerateDSYMFile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app.dSYM /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay
+cTouch /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioFile.h
+c000000004D54CF4A000000000000F32A
+t1297403722
+s62250
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004D54D0CD0000000000019010
+t1297404109
+s102416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D54D24F000000000000094F
+t1297404495
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004D54D24F0000000000000A61
+t1297404495
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D54D24F0000000000009369
+t1297404495
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D54D24F0000000000003C4A
+t1297404495
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D54D28100000000000191D0
+t1297404545
+s102864
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Endian.h
+c000000004D4F7A2B000000000000427F
+t1297054251
+s17023
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/alloca.h
+c000000004D4F6E990000000000000588
+t1297051289
+s1416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/assert.h
+c000000004D4F6E990000000000000F6E
+t1297051289
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ctype.h
+c000000004D4F6E9A0000000000002C18
+t1297051290
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/dirent.h
+c000000004D4F6E9A0000000000001707
+t1297051290
+s5895
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/errno.h
+c000000004D4F6E9900000000000003EB
+t1297051289
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/iconv.h
+c000000004A11EAB70000000000001FBE
+t1242688183
+s8126
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/inttypes.h
+c000000004D4F6E990000000000002674
+t1297051289
+s9844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/memory.h
+c000000004D4F6E990000000000000765
+t1297051289
+s1893
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/pthread.h
+c000000004D4F6E9A0000000000003BF6
+t1297051290
+s15350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/semaphore.h
+c000000004D4F6E99000000000000046F
+t1297051289
+s1135
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/signal.h
+c000000004D4F6E9A00000000000014F0
+t1297051290
+s5360
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/strings.h
+c000000004D4F6E990000000000000F73
+t1297051289
+s3955
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/resource.h
+c000000004D54D0EB0000000000002577
+t1297404139
+s9591
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/stat.h
+c000000004D54D0EB0000000000004B1B
+t1297404139
+s19227
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/time.h
+c000000004D54D0EC0000000000001E64
+t1297404140
+s7780
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/types.h
+c000000004D54D0EC0000000000002905
+t1297404140
+s10501
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/time.h
+c000000004D4F6E9A000000000000178E
+t1297051290
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/unistd.h
+c000000004D4F6E9A0000000000006662
+t1297051290
+s26210
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A1198340000000000003197
+t1242667060
+s12695
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.h
+c000000004FCDBBE40000000000001072
+t1338883044
+s4210
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"playAudio.h"
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m
+c000000004FCDBBE400000000000029D3
+t1338883044
+s10707
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"EAGLView.h"
+i"pic_352x288_rgb565.h"
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.h
+c000000004FCDBBE4000000000000031E
+t1338883044
+s798
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AudioToolbox/AudioFile.h>
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m
+c000000004FCDBBE40000000000000AB6
+t1338883044
+s2742
+i"playAudio.h"
+i"hello_clip_8000_16bit_mono.h"
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.h
+c000000004FC581D500000000000001F5
+t1338343893
+s501
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m
+c000000004FCDBBE40000000000000BDB
+t1338883044
+s3035
+i"stormplayAppDelegate.h"
+i"stormplayViewController.h"
+i"EAGLView.h"
+i"playAudio.h"
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.h
+c000000004FCDBBE400000000000002E9
+t1338883044
+s745
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m
+c000000004FCDBBE400000000000009B3
+t1338883044
+s2483
+i"stormplayViewController.h"
+i"EAGLView.h"
+i"playAudio.h"
+
+N/Users/admin/Desktop/yubo/stormplay/MainWindow.xib
+c000000004FC04C310000000000005FDD
+t1338002481
+s24541
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app
+t1338883063
+s340
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app.dSYM
+t1338883063
+s102
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/Info.plist
+t1338882792
+s683
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/MainWindow.nib
+t1338882793
+s1685
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/PkgInfo
+t1338882792
+s8
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/SDL_config.h.default
+t1338882792
+s1474
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/SDL_config.h.in
+t1338882792
+s7864
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/doxyfile
+t1338882792
+s37206
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay
+t1338883063
+s285928
+
+N/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplayViewController.nib
+t1338883062
+s2321
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/EAGLView.o
+t1338883062
+s262864
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL.o
+t1338882793
+s6688
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_events.o
+t1338882793
+s22324
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_fatal.o
+t1338882793
+s6212
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_quit.o
+t1338882793
+s13532
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syscond.o
+t1338882793
+s8304
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_sysmutex.o
+t1338882793
+s6856
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syssem.o
+t1338882793
+s7856
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systhread.o
+t1338882793
+s8836
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systimer.o
+t1338882794
+s8144
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_thread.o
+t1338882794
+s12468
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_timer.o
+t1338882794
+s11696
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_utils.o
+t1338882793
+s4332
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/cmdutils.o
+t1338882794
+s85388
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/main.o
+t1338882793
+s6304
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/playAudio.o
+t1338883063
+s28028
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplay.LinkFileList
+c000000004FCDBBF60000000000000917
+t1338883062
+s2327
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayAppDelegate.o
+t1338883062
+s55128
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayViewController.o
+t1338883063
+s52180
+
+N/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o
+t1338883063
+s4912
+
+N/Users/admin/Desktop/yubo/stormplay/hello_clip_8000_16bit_mono.h
+c000000004FBC4B5B000000000000B5F4
+t1337740123
+s46580
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavcodec/audioconvert.h
+c000000004F21D09E0000000000000F37
+t1327616158
+s3895
+i"libavutil/cpu.h"
+i"avcodec.h"
+i"libavutil/audioconvert.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavcodec/avcodec.h
+c000000004F90D2C00000000000027EDB
+t1334891200
+s163547
+i<errno.h>
+i"libavutil/samplefmt.h"
+i"libavutil/avutil.h"
+i"libavutil/cpu.h"
+i"libavutil/dict.h"
+i"libavutil/log.h"
+i"libavutil/pixfmt.h"
+i"libavutil/rational.h"
+i"libavcodec/version.h"
+i"libavutil/audioconvert.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavcodec/avfft.h
+c000000004F90D2C00000000000000B61
+t1334891200
+s2913
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavcodec/version.h
+c000000004F90D2C000000000000011D3
+t1334891200
+s4563
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavdevice/avdevice.h
+c000000004F90D2C00000000000000AE2
+t1334891200
+s2786
+i"libavutil/avutil.h"
+i"libavformat/avformat.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavfilter/avfilter.h
+c000000004F90D2C00000000000008F54
+t1334891200
+s36692
+i"libavutil/avutil.h"
+i"libavutil/log.h"
+i"libavutil/samplefmt.h"
+i"libavutil/pixfmt.h"
+i"libavutil/rational.h"
+i"libavcodec/avcodec.h"
+i<stddef.h>
+i"libavfilter/version.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavfilter/version.h
+c000000004F90D2C00000000000000617
+t1334891200
+s1559
+i"libavutil/avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavformat/avformat.h
+c000000004F90D2C00000000000012FF9
+t1334891200
+s77817
+i<time.h>
+i<stdio.h>
+i"libavcodec/avcodec.h"
+i"libavutil/dict.h"
+i"libavutil/log.h"
+i"avio.h"
+i"libavformat/version.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavformat/avio.h
+c000000004F90D2C00000000000006969
+t1334891200
+s26985
+i<stdint.h>
+i"libavutil/common.h"
+i"libavutil/dict.h"
+i"libavutil/log.h"
+i"libavformat/version.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavformat/version.h
+c000000004F90D2C000000000000011CE
+t1334891200
+s4558
+i"libavutil/avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/attributes.h
+c000000004F90D2C00000000000000F1C
+t1334891200
+s3868
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/audioconvert.h
+c000000004F90D2C00000000000001930
+t1334891200
+s6448
+i<stdint.h>
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/avassert.h
+c000000004F90D2C00000000000000841
+t1334891200
+s2113
+i<stdlib.h>
+i"avutil.h"
+i"log.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/avconfig.h
+c000000004F90D2C000000000000000AA
+t1334891200
+s170
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/avstring.h
+c000000004F90D2C00000000000001AFA
+t1334891200
+s6906
+i<stddef.h>
+i"attributes.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/avutil.h
+c000000004F90D2C00000000000001DD9
+t1334891200
+s7641
+i"common.h"
+i"error.h"
+i"mathematics.h"
+i"rational.h"
+i"intfloat_readwrite.h"
+i"log.h"
+i"pixfmt.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/colorspace.h
+c000000004F21D09E0000000000000E57
+t1327616158
+s3671
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/common.h
+c000000004F90D2C00000000000002D03
+t1334891200
+s11523
+i<ctype.h>
+i<errno.h>
+i<inttypes.h>
+i<limits.h>
+i<math.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"attributes.h"
+i"libavutil/avconfig.h"
+i"config.h"
+i"intmath.h"
+i"common.h"
+i"mem.h"
+i"internal.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/cpu.h
+c000000004F90D2C00000000000000A6D
+t1334891200
+s2669
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/dict.h
+c000000004F90D2C000000000000012A0
+t1334891200
+s4768
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/error.h
+c000000004F90D2C00000000000000D83
+t1334891200
+s3459
+i<errno.h>
+i"avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/eval.h
+c000000004F90D2C000000000000019B3
+t1334891200
+s6579
+i"avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/imgutils.h
+c000000004F90D2C0000000000000135A
+t1334891200
+s4954
+i"avutil.h"
+i"pixdesc.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/intfloat_readwrite.h
+c000000004F90D2C000000000000005D0
+t1334891200
+s1488
+i<stdint.h>
+i"attributes.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/log.h
+c000000004F90D2C0000000000000172F
+t1334891200
+s5935
+i<stdarg.h>
+i"avutil.h"
+i"attributes.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/mathematics.h
+c000000004F90D2C00000000000000E3C
+t1334891200
+s3644
+i<stdint.h>
+i<math.h>
+i"attributes.h"
+i"rational.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/mem.h
+c000000004F90D2C00000000000001876
+t1334891200
+s6262
+i"attributes.h"
+i"error.h"
+i"avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/opt.h
+c000000004F90D2C00000000000005FB1
+t1334891200
+s24497
+i"rational.h"
+i"avutil.h"
+i"dict.h"
+i"log.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/parseutils.h
+c000000004F90D2C0000000000000122A
+t1334891200
+s4650
+i<time.h>
+i"rational.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/pixdesc.h
+c000000004F90D2C00000000000001B7B
+t1334891200
+s7035
+i<inttypes.h>
+i"pixfmt.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/pixfmt.h
+c000000004F90D2C00000000000003C6D
+t1334891200
+s15469
+i"libavutil/avconfig.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/rational.h
+c000000004F90D2C00000000000000EB4
+t1334891200
+s3764
+i<stdint.h>
+i<limits.h>
+i"attributes.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libavutil/samplefmt.h
+c000000004F90D2C00000000000001757
+t1334891200
+s5975
+i"avutil.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libswresample/swresample.h
+c000000004F90D2C0000000000000133E
+t1334891200
+s4926
+i<inttypes.h>
+i"libavutil/samplefmt.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/libswscale/swscale.h
+c000000004F90D2C00000000000003080
+t1334891200
+s12416
+i"libavutil/avutil.h"
+i"libavutil/log.h"
+i"libavutil/pixfmt.h"
+
+N/Users/admin/Desktop/yubo/stormplay/libffmpeg/version.h
+c000000004F7D06F2000000000000001D
+t1333593842
+s29
+
+N/Users/admin/Desktop/yubo/stormplay/main.m
+c000000004FBC4AC60000000000000167
+t1337739974
+s359
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/yubo/stormplay/pic_352x288_rgb565.h
+c000000004FBC4B6400000000000CC2FF
+t1337740132
+s836351
+
+N/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c
+c000000004F89505C0000000000009464
+t1334399068
+s37988
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i<math.h>
+i"config.h"
+i"libavformat/avformat.h"
+i"libavfilter/avfilter.h"
+i"libavdevice/avdevice.h"
+i"libswscale/swscale.h"
+i"libswresample/swresample.h"
+i"libpostproc/postprocess.h"
+i"libavutil/avstring.h"
+i"libavutil/mathematics.h"
+i"libavutil/parseutils.h"
+i"libavutil/pixdesc.h"
+i"libavutil/eval.h"
+i"libavutil/dict.h"
+i"libavutil/opt.h"
+i"cmdutils.h"
+i"version.h"
+i"libavformat/network.h"
+i<sys/resource.h>
+i<windows.h>
+
+N/Users/admin/Desktop/yubo/stormplay/player/cmdutils.h
+c000000004FC5A24C0000000000002EE5
+t1338352204
+s12005
+i<stdint.h>
+
+N/Users/admin/Desktop/yubo/stormplay/player/config.h
+c000000004F7D06F200000000000008C8
+t1333593842
+s2248
+
+N/Users/admin/Desktop/yubo/stormplay/player/player.h
+c000000004FCDBAD90000000000001F73
+t1338882777
+s8051
+i<errno.h>
+i<unistd.h>
+i<assert.h>
+i<pthread.h>
+i<string.h>
+i"config.h"
+i<inttypes.h>
+i<math.h>
+i<limits.h>
+i<signal.h>
+i"libavutil/avstring.h"
+i"libavutil/colorspace.h"
+i"libavutil/mathematics.h"
+i"libavutil/pixdesc.h"
+i"libavutil/imgutils.h"
+i"libavutil/dict.h"
+i"libavutil/parseutils.h"
+i"libavutil/samplefmt.h"
+i"libavutil/avassert.h"
+i"libavformat/avformat.h"
+i"libavdevice/avdevice.h"
+i"libswscale/swscale.h"
+i"libavcodec/audioconvert.h"
+i"libavutil/opt.h"
+i"libavcodec/avfft.h"
+i"libswresample/swresample.h"
+i<SDL.h>
+i<SDL_thread.h>
+i<sys/types.h>
+i"cmdutils.h"
+i"utils.h"
+
+N/Users/admin/Desktop/yubo/stormplay/player/utils.c
+c000000004FCDBAD90000000000001DDE
+t1338882777
+s7646
+i"player.h"
+i"utils.h"
+
+N/Users/admin/Desktop/yubo/stormplay/player/utils.h
+c000000004FCDBAD90000000000000430
+t1338882777
+s1072
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i<pthread.h>
+i<dirent.h>
+i<sys/stat.h>
+i<stdarg.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c
+c000000004F84094C0000000000001A8F
+t1334053196
+s6799
+i"SDL_config.h"
+i"SDL.h"
+i"SDL_fatal.h"
+i"video/SDL_leaks.h"
+i<pth.h>
+i<os2.h>
+i<windows.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL_error_c.h
+c000000004F7D06F200000000000006FE
+t1333593842
+s1790
+i"SDL_config.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c
+c000000004F17B86E0000000000000C11
+t1326954606
+s3089
+i"SDL_config.h"
+i<signal.h>
+i"SDL.h"
+i"SDL_fatal.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.h
+c000000004F7D06F20000000000000402
+t1333593842
+s1026
+i"SDL_config.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c
+c000000004FBE6B0500000000000001D2
+t1337879301
+s466
+i"SDL_utils.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.h
+c000000004FBE6292000000000000008B
+t1337877138
+s139
+i"SDL_error.h"
+i<sys/time.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c
+c000000004F8310C200000000000029AF
+t1333989570
+s10671
+i"SDL_config.h"
+i"SDL.h"
+i"SDL_sysevents.h"
+i"SDL_events_c.h"
+i"../timer/SDL_timer_c.h"
+i<os2.h>
+i<time.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events_c.h
+c000000004F17B86E0000000000000BC9
+t1326954606
+s3017
+i"SDL_config.h"
+i"SDL_events.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c
+c000000004F17B86E0000000000000CBA
+t1326954606
+s3258
+i"SDL_config.h"
+i<signal.h>
+i"SDL_events.h"
+i"SDL_events_c.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_sysevents.h
+c000000004F830DE2000000000000039C
+t1333988834
+s924
+i"SDL_config.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL.h
+c000000004F7D06F20000000000000CA1
+t1333593842
+s3233
+i"SDL_main.h"
+i"SDL_stdinc.h"
+i"SDL_audio.h"
+i"SDL_cdrom.h"
+i"SDL_cpuinfo.h"
+i"SDL_endian.h"
+i"SDL_error.h"
+i"SDL_events.h"
+i"SDL_loadso.h"
+i"SDL_mutex.h"
+i"SDL_rwops.h"
+i"SDL_thread.h"
+i"SDL_timer.h"
+i"SDL_video.h"
+i"SDL_version.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_active.h
+c000000004F7D06F2000000000000078D
+t1333593842
+s1933
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_audio.h
+c000000004F7D06F20000000000002BCF
+t1333593842
+s11215
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_endian.h"
+i"SDL_mutex.h"
+i"SDL_thread.h"
+i"SDL_rwops.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_cdrom.h
+c000000004F7D06F200000000000017A0
+t1333593842
+s6048
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h
+c000000004F83D8400000000000002429
+t1334040640
+s9257
+i"SDL_platform.h"
+i<stdarg.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.default
+c000000004F7D06F200000000000005C2
+t1333593842
+s1474
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.in
+c000000004F7D06F20000000000001EB8
+t1333593842
+s7864
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_cpuinfo.h
+c000000004F7D06F200000000000008AD
+t1333593842
+s2221
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_endian.h
+c000000004F7D06F200000000000017A7
+t1333593842
+s6055
+i"SDL_stdinc.h"
+i<endian.h>
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_error.h
+c000000004F7D06F20000000000000756
+t1333593842
+s1878
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_events.h
+c000000004F7D06F200000000000032F1
+t1333593842
+s13041
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_active.h"
+i"SDL_keyboard.h"
+i"SDL_mouse.h"
+i"SDL_joystick.h"
+i"SDL_quit.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_joystick.h
+c000000004F7D06F2000000000000159C
+t1333593842
+s5532
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_keyboard.h
+c000000004F7D06F20000000000001002
+t1333593842
+s4098
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_keysym.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_keysym.h
+c000000004F7D06F20000000000001D44
+t1333593842
+s7492
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_loadso.h
+c000000004F7D06F20000000000000AB3
+t1333593842
+s2739
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_main.h
+c000000004F7D06F20000000000000B32
+t1333593842
+s2866
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_mouse.h
+c000000004F7D06F20000000000001292
+t1333593842
+s4754
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_video.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_mutex.h
+c000000004F7D06F200000000000016E4
+t1333593842
+s5860
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_platform.h
+c000000004F7D06F20000000000000A94
+t1333593842
+s2708
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_quit.h
+c000000004F7D06F200000000000007D9
+t1333593842
+s2009
+i"SDL_stdinc.h"
+i"SDL_error.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_rwops.h
+c000000004F7D06F2000000000000135E
+t1333593842
+s4958
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_stdinc.h
+c000000004F7D06F20000000000004059
+t1333593842
+s16473
+i"SDL_config.h"
+i<sys/types.h>
+i<stdio.h>
+i<stdlib.h>
+i<stddef.h>
+i<stdarg.h>
+i<stdlib.h>
+i<malloc.h>
+i<stddef.h>
+i<stdarg.h>
+i<memory.h>
+i<string.h>
+i<strings.h>
+i<inttypes.h>
+i<stdint.h>
+i<ctype.h>
+i<iconv.h>
+i"begin_code.h"
+i<alloca.h>
+i<malloc.h>
+i<malloc.h>
+i<malloc.h>
+i<stdlib.h>
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_thread.h
+c000000004F7D06F20000000000001092
+t1333593842
+s4242
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_mutex.h"
+i"begin_code.h"
+i<process.h>
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_timer.h
+c000000004F7D06F200000000000011AF
+t1333593842
+s4527
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_version.h
+c000000004F7D06F20000000000000A4D
+t1333593842
+s2637
+i"SDL_stdinc.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_video.h
+c000000004F7D06F20000000000009482
+t1333593842
+s38018
+i"SDL_stdinc.h"
+i"SDL_error.h"
+i"SDL_rwops.h"
+i"begin_code.h"
+i"close_code.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/begin_code.h
+c000000004F7D06F2000000000000146E
+t1333593842
+s5230
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/close_code.h
+c000000004F7D06F200000000000005CA
+t1333593842
+s1482
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/include/doxyfile
+c000000004F7D06F20000000000009156
+t1333593842
+s37206
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_systhread.h
+c000000004F7D06F20000000000000742
+t1333593842
+s1858
+i"SDL_config.h"
+i"SDL_thread.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c
+c000000004F7D06F20000000000001BA0
+t1333593842
+s7072
+i"SDL_config.h"
+i"SDL_mutex.h"
+i"SDL_thread.h"
+i"SDL_thread_c.h"
+i"SDL_systhread.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread_c.h
+c000000004F7D06F20000000000000788
+t1333593842
+s1928
+i"SDL_config.h"
+i"generic/SDL_systhread_c.h"
+i"beos/SDL_systhread_c.h"
+i"dc/SDL_systhread_c.h"
+i"os2/SDL_systhread_c.h"
+i"pth/SDL_systhread_c.h"
+i"pthread/SDL_systhread_c.h"
+i"irix/SDL_systhread_c.h"
+i"win32/SDL_systhread_c.h"
+i"symbian/SDL_systhread_c.h"
+i"generic/SDL_systhread_c.h"
+i"../SDL_error_c.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/generic/SDL_syssem.c
+c000000004F17B86E00000000000010A2
+t1326954606
+s4258
+i"SDL_config.h"
+i"SDL_timer.h"
+i"SDL_thread.h"
+i"SDL_systhread_c.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c
+c000000004F7D06F20000000000000DB6
+t1333593842
+s3510
+i"SDL_config.h"
+i<sys/time.h>
+i<unistd.h>
+i<errno.h>
+i<pthread.h>
+i"SDL_thread.h"
+i"SDL_sysmutex_c.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c
+c000000004F7D06F20000000000000E31
+t1333593842
+s3633
+i"SDL_config.h"
+i<pthread.h>
+i"SDL_thread.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex_c.h
+c000000004F7D06F200000000000003F4
+t1333593842
+s1012
+i"SDL_config.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c
+c000000004FBE67940000000000000F64
+t1337878420
+s3940
+i"SDL_config.h"
+i<pthread.h>
+i<semaphore.h>
+i<errno.h>
+i<sys/time.h>
+i"SDL_thread.h"
+i"SDL_timer.h"
+i"../generic/SDL_syssem.c"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c
+c000000004F7D06F20000000000000BF5
+t1333593842
+s3061
+i"SDL_config.h"
+i<pthread.h>
+i<signal.h>
+i"SDL_thread.h"
+i"../SDL_thread_c.h"
+i"../SDL_systhread.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread_c.h
+c000000004F7D06F200000000000003AE
+t1333593842
+s942
+i"SDL_config.h"
+i<pthread.h>
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_systimer.h
+c000000004F17B86E0000000000000533
+t1326954606
+s1331
+i"SDL_config.h"
+i"SDL_timer.h"
+i"SDL_timer_c.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c
+c000000004F17B86E0000000000001A19
+t1326954606
+s6681
+i"SDL_config.h"
+i"SDL_timer.h"
+i"SDL_timer_c.h"
+i"SDL_mutex.h"
+i"SDL_systimer.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer_c.h
+c000000004F17B86E000000000000063D
+t1326954606
+s1597
+i"SDL_config.h"
+i"SDL_timer.h"
+
+N/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c
+c000000004F17B86E00000000000013C6
+t1326954606
+s5062
+i"SDL_config.h"
+i<stdio.h>
+i<sys/time.h>
+i<signal.h>
+i<unistd.h>
+i<string.h>
+i<errno.h>
+i"SDL_timer.h"
+i"../SDL_timer_c.h"
+i<time.h>
+i<pth.h>
+i"SDL_thread.h"
+
+N/Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib
+c000000004FCDBBE400000000000064F7
+t1338883044
+s25847
+
+N/Users/admin/Desktop/yubo/stormplay/stormplay_Prefix.pch
+c000000004FBC4AC600000000000000BB
+t1337739974
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Desktop/yubo/stormplay/utils.c
+c000000004FBE6B11000000000000019C
+t1337879313
+s412
+i"utils.h"
+
+N/Users/admin/Desktop/yubo/stormplay/utils.h
+c000000004FBE646D00000000000000E0
+t1337877613
+s224
+i<dirent.h>
+i<sys/stat.h>
+i<stdio.h>
+
+N/var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch.gch
+t1338376770
+s15814064
+
+N/var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch.gch
+t1338376767
+s2142576
+
+Nstormplay-Info.plist
+c000000004FC04B860000000000000406
+t1338002310
+s1030
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies360575862#360575862#0(0"0(0#1#0"8638460256#0"0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/EAGLView.o /Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360575862.728380
+e360575862.984461
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/EAGLView.o
+x/Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m360575862#360575862#0(0"0(0#0#54"/Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m8634141536#1975"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/Classes/EAGLView.m -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.709157
+e360575593.786779
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c: In function 'SDL_InitSubSystem':
+o/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c:87: warning: implicit declaration of function 'SDL_StartEventLoop'
+o/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c: In function 'SDL_QuitSubSystem':
+o/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c:127: warning: implicit declaration of function 'SDL_StopEventLoop'
+lSLF07#2@53"Compile /Users/admin/Desktop/yubo/stormplay/sdl/SDL.c360575593#360575593#0(386"/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c: In function 'SDL_InitSubSystem':/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c:87: warning: implicit declaration of function 'SDL_StartEventLoop'/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c: In function 'SDL_QuitSubSystem':/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c:127: warning: implicit declaration of function 'SDL_StopEventLoop'2(22@53"Implicit declaration of function 'SDL_StartEventLoop'360575593#80#113#0(6@45"/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c355745996#87#0#87#0#36"implicit declaration of function '*'0(22@52"Implicit declaration of function 'SDL_StopEventLoop'360575593#273#113#0(6@45"/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c355745996#127#0#127#0#36"implicit declaration of function '*'0(0#0#45"/Users/admin/Desktop/yubo/stormplay/sdl/SDL.c8644234720#1907"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/SDL.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_events.o /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.472355
+e360575593.639063
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_events.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c: In function 'SDL_PeepEvents':
+o/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c:340: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@67"Compile /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c360575593#360575593#0(213"/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c: In function 'SDL_PeepEvents':/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c:340: warning: implicit declaration of function 'SDL_SetError'1(22@47"Implicit declaration of function 'SDL_SetError'360575593#91#122#0(6@59"/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c355682370#340#0#340#0#36"implicit declaration of function '*'0(0#0#59"/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c8627512800#1928"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_events.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_events.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_fatal.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.607083
+e360575593.709049
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_fatal.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c360575593#360575593#0(0"0(0#0#51"/Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c8590454848#1919"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/SDL_fatal.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_fatal.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_quit.o /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.534209
+e360575593.606982
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_quit.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c360575593#360575593#0(0"0(0#0#57"/Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c8625307552#1924"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/events/SDL_quit.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_quit.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syscond.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.712067
+e360575593.788410
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syscond.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c: In function 'SDL_CreateCond':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c:45: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@76"Compile /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c360575593#360575593#0(230"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c: In function 'SDL_CreateCond':/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c:45: warning: implicit declaration of function 'SDL_SetError'1(22@47"Implicit declaration of function 'SDL_SetError'360575593#100#130#0(6@68"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c355286642#45#0#45#0#36"implicit declaration of function '*'0(0#0#68"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c8640108640#1938"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syscond.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syscond.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_sysmutex.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.786877
+e360575593.853868
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_sysmutex.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c: In function 'SDL_CreateMutex':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c:58: warning: implicit declaration of function 'SDL_SetError'
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c:63: warning: implicit declaration of function 'SDL_Error'
+lSLF07#2@77"Compile /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c360575593#360575593#0(361"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c: In function 'SDL_CreateMutex':/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c:58: warning: implicit declaration of function 'SDL_SetError'/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c:63: warning: implicit declaration of function 'SDL_Error'2(22@47"Implicit declaration of function 'SDL_SetError'360575593#102#131#0(6@69"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c355286642#58#0#58#0#36"implicit declaration of function '*'0(22@44"Implicit declaration of function 'SDL_Error'360575593#233#128#0(6@69"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c355286642#63#0#63#0#36"implicit declaration of function '*'0(0#0#69"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c8631379264#1940"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_sysmutex.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_sysmutex.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syssem.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.788499
+e360575593.897832
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syssem.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c:36:
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c: In function 'SDL_CreateSemaphore':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c:89: warning: implicit declaration of function 'SDL_Error'
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c: In function 'SDL_SemTryWait':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c:131: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@75"Compile /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c360575593#360575593#0(597"In file included from /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c:36:/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c: In function 'SDL_CreateSemaphore':/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c:89: warning: implicit declaration of function 'SDL_Error'/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c: In function 'SDL_SemTryWait':/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c:131: warning: implicit declaration of function 'SDL_SetError'2(22@44"Implicit declaration of function 'SDL_Error'360575593#209#137#2(7@89"In file included from /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c360575593#18446744073709551615#0#0(6@67"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c359571220#36#0#36#0#0"0(13@126"Implicit declaration of function 'SDL_Error' in /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c360575593#18446744073709551615#0#0(6@78"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c348647406#89#0#89#0#0"0(6@78"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c348647406#89#0#89#0#36"implicit declaration of function '*'0(22@47"Implicit declaration of function 'SDL_SetError'360575593#456#141#2(7@89"In file included from /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c360575593#18446744073709551615#0#0(6@67"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c359571220#36#0#36#0#0"0(13@129"Implicit declaration of function 'SDL_SetError' in /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c360575593#18446744073709551615#0#0(6@78"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c348647406#131#0#131#0#0"0(6@78"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/../generic/SDL_syssem.c348647406#131#0#131#0#36"implicit declaration of function '*'0(0#0#67"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c8626893984#1936"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_syssem.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_syssem.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systhread.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.853969
+e360575593.978995
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systhread.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c: In function 'SDL_SYS_CreateThread':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c:58: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@78"Compile /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c360575593#360575594#0(240"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c: In function 'SDL_SYS_CreateThread':/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c:58: warning: implicit declaration of function 'SDL_SetError'1(22@47"Implicit declaration of function 'SDL_SetError'360575593#108#132#0(6@70"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c355286642#58#0#58#0#36"implicit declaration of function '*'0(0#0#70"/Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c8616865152#1942"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/thread/pthread/SDL_systhread.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systhread.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systimer.o /Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c normal i386 c com.apple.compilers.gcc.4_2
+s360575594.039025
+e360575594.110295
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systimer.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c: In function 'SDL_SYS_StartTimer':
+o/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c:229: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@73"Compile /Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c360575594#360575594#0(229"/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c: In function 'SDL_SYS_StartTimer':/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c:229: warning: implicit declaration of function 'SDL_SetError'1(22@47"Implicit declaration of function 'SDL_SetError'360575594#101#128#0(6@65"/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c348647406#229#0#229#0#36"implicit declaration of function '*'0(0#0#65"/Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c8615878848#1936"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/timer/unix/SDL_systimer.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_systimer.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_thread.o /Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.898069
+e360575594.038919
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_thread.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c: In function 'SDL_AddThread':
+o/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c:95: warning: implicit declaration of function 'SDL_Error'
+lSLF07#2@67"Compile /Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c360575593#360575594#0(208"/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c: In function 'SDL_AddThread':/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c:95: warning: implicit declaration of function 'SDL_Error'1(22@44"Implicit declaration of function 'SDL_Error'360575593#90#118#0(6@59"/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c355286642#95#0#95#0#36"implicit declaration of function '*'0(0#0#59"/Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c8598032640#1928"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/thread/SDL_thread.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_thread.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_timer.o /Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.979093
+e360575594.108650
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_timer.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c: In function 'SDL_SetTimerThreaded':
+o/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c:61: warning: implicit declaration of function 'SDL_SetError'
+lSLF07#2@65"Compile /Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c360575593#360575594#0(214"/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c: In function 'SDL_SetTimerThreaded':/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c:61: warning: implicit declaration of function 'SDL_SetError'1(22@47"Implicit declaration of function 'SDL_SetError'360575594#95#119#0(6@57"/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c348647406#61#0#61#0#36"implicit declaration of function '*'0(0#0#57"/Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c8619856096#1925"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/timer/SDL_timer.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_timer.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_utils.o /Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c normal i386 c com.apple.compilers.gcc.4_2
+s360575593.639174
+e360575593.711968
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_utils.o
+x/Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c360575593#360575593#0(0"0(0#0#51"/Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c8624585312#1919"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/sdl/SDL_utils.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/SDL_utils.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/cmdutils.o /Users/admin/Desktop/yubo/stormplay/player/cmdutils.c normal i386 c com.apple.compilers.gcc.4_2
+s360575594.110388
+e360575594.472149
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/cmdutils.o
+x/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c: In function 'dump_argument':
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:376: warning: pointer targets in assignment differ in signedness
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:385: warning: pointer targets in assignment differ in signedness
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c: In function 'opt_filters':
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:875: warning: unused variable 'pad'
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:874: warning: unused variable 'j'
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:874: warning: unused variable 'i'
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:873: warning: unused variable 'descr_cur'
+o/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:873: warning: unused variable 'descr'
+lSLF07#2@61"Compile /Users/admin/Desktop/yubo/stormplay/player/cmdutils.c360575594#360575594#0(858"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c: In function 'dump_argument':/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:376: warning: pointer targets in assignment differ in signedness/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:385: warning: pointer targets in assignment differ in signedness/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c: In function 'opt_filters':/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:875: warning: unused variable 'pad'/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:874: warning: unused variable 'j'/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:874: warning: unused variable 'i'/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:873: warning: unused variable 'descr_cur'/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c:873: warning: unused variable 'descr'7(22@50"Pointer targets in assignment differ in signedness360575594#84#119#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#376#0#376#0#0"0(22@50"Pointer targets in assignment differ in signedness360575594#203#119#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#385#0#385#0#0"0(22@21"Unused variable 'pad'360575594#404#90#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#875#0#875#0#19"unused variable '*'0(22@19"Unused variable 'j'360575594#494#88#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#874#0#874#0#19"unused variable '*'0(22@19"Unused variable 'i'360575594#582#88#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#874#0#874#0#19"unused variable '*'0(22@27"Unused variable 'descr_cur'360575594#670#96#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#873#0#873#0#19"unused variable '*'0(22@23"Unused variable 'descr'360575594#766#92#0(6@53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c356091868#873#0#873#0#19"unused variable '*'0(0#0#53"/Users/admin/Desktop/yubo/stormplay/player/cmdutils.c8652195552#1920"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/player/cmdutils.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/cmdutils.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/main.o /Users/admin/Desktop/yubo/stormplay/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360575593.200087
+e360575593.275359
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/main.o
+x/Users/admin/Desktop/yubo/stormplay/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/admin/Desktop/yubo/stormplay/main.m360575593#360575593#0(0"0(0#0#42"/Users/admin/Desktop/yubo/stormplay/main.m8621107296#1959"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/main.m -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/main.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/playAudio.o /Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360575862.904122
+e360575863.038684
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/playAudio.o
+x/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m: In function 'BufferCallback':
+o/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m:40: warning: unused variable 'pAQ'
+lSLF07#2@63"Compile /Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m360575862#360575863#0(178"/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m: In function 'BufferCallback':/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m:40: warning: unused variable 'pAQ'1(22@21"Unused variable 'pAQ'360575862#87#91#0(6@55"/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m360575844#40#0#40#0#19"unused variable '*'0(0#0#55"/Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m8614793152#1977"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/Classes/playAudio.m -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/playAudio.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayAppDelegate.o /Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360575862.727325
+e360575862.904017
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayAppDelegate.o
+x/Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m360575862#360575862#0(0"0(0#0#66"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m8635315360#1999"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/Classes/stormplayAppDelegate.m -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayAppDelegate.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayViewController.o /Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s360575863.036700
+e360575863.161757
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayViewController.o
+x/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController palayInit]':
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:61: warning: control reaches end of non-void function
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController playDone]':
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:66: warning: control reaches end of non-void function
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController playStart]':
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:71: warning: control reaches end of non-void function
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: At top level:
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: incomplete implementation of class 'stormplayViewController'
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: method definition for '-startPlay' not found
+o/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: method definition for '-initPlay' not found
+lSLF07#2@77"Compile /Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575863#360575863#0(1227"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController palayInit]':/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:61: warning: control reaches end of non-void function/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController playDone]':/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:66: warning: control reaches end of non-void function/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: In function '-[stormplayViewController playStart]':/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:71: warning: control reaches end of non-void function/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m: At top level:/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: incomplete implementation of class 'stormplayViewController'/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: method definition for '-startPlay' not found/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m:124: warning: method definition for '-initPlay' not found7(22@40"Control reaches end of non-void function360575863#123#124#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#61#0#61#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function360575863#369#124#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#66#0#66#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function360575863#616#124#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#71#0#71#0#40"control reaches end of non-void function0(23@13"At top level:360575863#740#85#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#0#0#0#0#0"0(22@60"Incomplete implementation of class 'stormplayViewController'360575863#825#145#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#124#0#124#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-startPlay' not found360575863#970#129#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#124#0#124#0#35"method definition for '*' not found0(22@43"Method definition for '-initPlay' not found360575863#1099#128#0(6@69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m360575844#124#0#124#0#35"method definition for '*' not found0(0#0#69"/Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m8637672480#2005"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/Classes/stormplayViewController.m -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplayViewController.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o /Users/admin/Desktop/yubo/stormplay/player/utils.c normal i386 c com.apple.compilers.gcc.4_2
+s360575594.472251
+e360575594.627240
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o
+x/Users/admin/Desktop/yubo/stormplay/player/utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'av_log_callback':
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c:107: warning: pointer targets in passing argument 1 of 'sanitize' differ in signedness
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c:108: warning: format not a string literal and no format arguments
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c:108: warning: format not a string literal and no format arguments
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'EGL_CreateGRBOverlay':
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c:134: warning: implicit declaration of function 'SDL_Error'
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'saveYUV':
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c:224: warning: control reaches end of non-void function
+o/Users/admin/Desktop/yubo/stormplay/player/utils.c: At top level:
+o/Users/admin/Desktop/yubo/stormplay/player/player.h:92: warning: 'sws_flags' defined but not used
+lSLF07#2@58"Compile /Users/admin/Desktop/yubo/stormplay/player/utils.c360575594#360575594#0(998"/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'av_log_callback':/Users/admin/Desktop/yubo/stormplay/player/utils.c:107: warning: pointer targets in passing argument 1 of 'sanitize' differ in signedness/Users/admin/Desktop/yubo/stormplay/player/utils.c:108: warning: format not a string literal and no format arguments/Users/admin/Desktop/yubo/stormplay/player/utils.c:108: warning: format not a string literal and no format arguments/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'EGL_CreateGRBOverlay':/Users/admin/Desktop/yubo/stormplay/player/utils.c:134: warning: implicit declaration of function 'SDL_Error'/Users/admin/Desktop/yubo/stormplay/player/utils.c: In function 'saveYUV':/Users/admin/Desktop/yubo/stormplay/player/utils.c:224: warning: control reaches end of non-void function/Users/admin/Desktop/yubo/stormplay/player/utils.c: At top level:/Users/admin/Desktop/yubo/stormplay/player/player.h:92: warning: 'sws_flags' defined but not used7(22@72"Pointer targets in passing argument 1 of 'sanitize' differ in signedness360575594#83#138#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#107#0#107#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@51"Format not a string literal and no format arguments360575594#221#117#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#108#0#108#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments360575594#338#117#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#108#0#108#0#51"format not a string literal and no format arguments0(22@44"Implicit declaration of function 'SDL_Error'360575594#543#110#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#134#0#134#0#36"implicit declaration of function '*'0(22@40"Control reaches end of non-void function360575594#728#106#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#224#0#224#0#40"control reaches end of non-void function0(23@13"At top level:360575594#834#66#0(6@50"/Users/admin/Desktop/yubo/stormplay/player/utils.c360575577#0#0#0#0#0"0(22@32"'sws_flags' defined but not used360575594#900#98#0(6@51"/Users/admin/Desktop/yubo/stormplay/player/player.h360575577#92#0#92#0#24"'*' defined but not used0(0#0#50"/Users/admin/Desktop/yubo/stormplay/player/utils.c8651414304#1914"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/player/utils.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o0#
+
+CCompileC build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o /Users/admin/Desktop/yubo/stormplay/utils.c normal i386 c com.apple.compilers.gcc.4_2
+s360575862.984563
+e360575863.035410
+r1
+xCompileC
+xbuild/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o
+x/Users/admin/Desktop/yubo/stormplay/utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/admin/Desktop/yubo/stormplay/utils.c360575862#360575863#0(0"0(0#0#43"/Users/admin/Desktop/yubo/stormplay/utils.c8614253312#1907"    cd /Users/admin/Desktop/yubo/stormplay    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-generated-files.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-own-target-headers.hmap -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-all-target-headers.hmap -iquote /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/stormplay-project-headers.hmap -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -I/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/include -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources/i386 -I/Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/DerivedSources -I./libffmpeg -I./sdl -I./sdl/include -include /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch -c /Users/admin/Desktop/yubo/stormplay/utils.c -o /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/utils.o0#
+
+CCompileXIB /Users/admin/Desktop/yubo/stormplay/MainWindow.xib
+s360575592.393614
+e360575593.030299
+r1
+xCompileXIB
+x/Users/admin/Desktop/yubo/stormplay/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib360575592#360575593#0(0"0(0#0#50"/Users/admin/Desktop/yubo/stormplay/MainWindow.xib8622403168#563"    cd /Users/admin/Desktop/yubo/stormplay    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/MainWindow.nib /Users/admin/Desktop/yubo/stormplay/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib
+s360575862.087338
+e360575862.727001
+r1
+xCompileXIB
+x/Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib
+lSLF07#2@38"CompileXIB stormplayViewController.xib360575862#360575862#0(0"0(0#0#63"/Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib8615442432#589"    cd /Users/admin/Desktop/yubo/stormplay    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplayViewController.nib /Users/admin/Desktop/yubo/stormplay/stormplayViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/stormplay.app/SDL_config.h.default sdl/include/SDL_config.h.default
+s360575592.396634
+e360575592.427582
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/stormplay.app/SDL_config.h.default
+xsdl/include/SDL_config.h.default
+lSLF07#2@37"Copy sdl/include/SDL_config.h.default360575592#360575592#0(0"0(0#0#68"/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.default8643183488#483"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.default /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app0#
+
+CCpResource build/Debug-iphonesimulator/stormplay.app/SDL_config.h.in sdl/include/SDL_config.h.in
+s360575592.415677
+e360575592.427437
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/stormplay.app/SDL_config.h.in
+xsdl/include/SDL_config.h.in
+lSLF07#2@32"Copy sdl/include/SDL_config.h.in360575592#360575592#0(0"0(0#0#63"/Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.in8633628928#478"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Desktop/yubo/stormplay/sdl/include/SDL_config.h.in /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app0#
+
+CCpResource build/Debug-iphonesimulator/stormplay.app/doxyfile sdl/include/doxyfile
+s360575592.394716
+e360575592.437095
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/stormplay.app/doxyfile
+xsdl/include/doxyfile
+lSLF07#2@25"Copy sdl/include/doxyfile360575592#360575592#0(0"0(0#0#56"/Users/admin/Desktop/yubo/stormplay/sdl/include/doxyfile8627425696#471"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/admin/Desktop/yubo/stormplay/sdl/include/doxyfile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app0#
+
+CGenerateDSYMFile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app.dSYM /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay
+s360575863.250095
+e360575863.282423
+r1
+xGenerateDSYMFile
+x/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app.dSYM
+x/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/stormplay.app.dSYM build/Debug-iphonesimulator/stormplay.app/stormplay360575863#360575863#0(0"0(0#0#87"/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay8629107008#380"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay -o /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app.dSYM0#
+
+CLd /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay normal i386
+s360575863.161849
+e360575863.249993
+r1
+xLd
+x/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay
+xnormal
+xi386
+lSLF07#2@92"Link /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay360575863#360575863#0(0"0(0#0#0"8648225952#1037"    cd /Users/admin/Desktop/yubo/stormplay    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -F/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator -filelist /Users/admin/Desktop/yubo/stormplay/build/stormplay.build/Debug-iphonesimulator/stormplay.build/Objects-normal/i386/stormplay.LinkFileList -mmacosx-version-min=10.6 -L./libffmpeg/lib/i386 -lavcodec -lavformat -lavutil -lswscale -lswresample -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework OpenGLES -framework QuartzCore -o /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/stormplay0#
+
+CProcessInfoPlistFile /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/Info.plist stormplay-Info.plist
+s360575592.369681
+e360575592.393488
+r1
+xProcessInfoPlistFile
+x/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/Info.plist
+xstormplay-Info.plist
+lSLF07#2@28"Process stormplay-Info.plist360575592#360575592#0(0"0(0#0#56"/Users/admin/Desktop/yubo/stormplay/stormplay-Info.plist8627676480#476"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility stormplay-Info.plist -genpkginfo /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app/Info.plist0#
+
+CProcessPCH /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-eigoxlvczabrfwhhzzmqgwafgven/stormplay_Prefix.pch.gch stormplay_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Mj/MjBCzz6pEiGP7o5S3SmxOU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/stormplay_Prefix-fzshjuokpqfigdbajzyklymmzsde/stormplay_Prefix.pch.gch stormplay_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app
+s360575863.282521
+e360575863.285506
+r1
+xTouch
+x/Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app
+lSLF07#2@83"Touch /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app360575863#360575863#0(0"0(0#0#0"8635595840#274"    cd /Users/admin/Desktop/yubo/stormplay    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/admin/Desktop/yubo/stormplay/build/Debug-iphonesimulator/stormplay.app0#
+

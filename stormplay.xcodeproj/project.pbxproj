@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* stormplayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* stormplayAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		848BCD63156C831800809F28 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 848BCD62156C831800809F28 /* EAGLView.m */; };
+		848BCD66156C832D00809F28 /* playAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 848BCD65156C832D00809F28 /* playAudio.m */; };
+		848BCDEA156CE1D800809F28 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848BCDE9156CE1D800809F28 /* AudioToolbox.framework */; };
+		848BCDEC156CE1FC00809F28 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848BCDEB156CE1FC00809F28 /* OpenGLES.framework */; };
+		848BCDF2156CE2C100809F28 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848BCDF1156CE2C100809F28 /* QuartzCore.framework */; };
+		84ACE006156E98BF00C50BE0 /* SDL_events.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFBC156E98BF00C50BE0 /* SDL_events.c */; };
+		84ACE007156E98BF00C50BE0 /* SDL_quit.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFBE156E98BF00C50BE0 /* SDL_quit.c */; };
+		84ACE008156E98BF00C50BE0 /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDFC3156E98BF00C50BE0 /* doxyfile */; };
+		84ACE009156E98BF00C50BE0 /* SDL_config.h.default in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDFCA156E98BF00C50BE0 /* SDL_config.h.default */; };
+		84ACE00A156E98BF00C50BE0 /* SDL_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 84ACDFCB156E98BF00C50BE0 /* SDL_config.h.in */; };
+		84ACE00B156E98BF00C50BE0 /* SDL_fatal.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFEE156E98BF00C50BE0 /* SDL_fatal.c */; };
+		84ACE00C156E98BF00C50BE0 /* SDL_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFF0156E98BF00C50BE0 /* SDL_utils.c */; };
+		84ACE00D156E98BF00C50BE0 /* SDL.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFF2156E98BF00C50BE0 /* SDL.c */; };
+		84ACE00F156E98BF00C50BE0 /* SDL_syscond.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFF6156E98BF00C50BE0 /* SDL_syscond.c */; };
+		84ACE010156E98BF00C50BE0 /* SDL_sysmutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFF7156E98BF00C50BE0 /* SDL_sysmutex.c */; };
+		84ACE011156E98BF00C50BE0 /* SDL_syssem.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFF9156E98BF00C50BE0 /* SDL_syssem.c */; };
+		84ACE012156E98BF00C50BE0 /* SDL_systhread.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFFA156E98BF00C50BE0 /* SDL_systhread.c */; };
+		84ACE013156E98BF00C50BE0 /* SDL_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACDFFD156E98BF00C50BE0 /* SDL_thread.c */; };
+		84ACE014156E98BF00C50BE0 /* SDL_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACE001156E98BF00C50BE0 /* SDL_timer.c */; };
+		84ACE015156E98BF00C50BE0 /* SDL_systimer.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACE004156E98BF00C50BE0 /* SDL_systimer.c */; };
+		84ACE13D156F995800C50BE0 /* stormplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ACE13C156F995800C50BE0 /* stormplayViewController.xib */; };
+		84ACE142156F99AF00C50BE0 /* stormplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ACE141156F99AF00C50BE0 /* stormplayViewController.m */; };
+		84ACE7BE1575BF0300C50BE0 /* cmdutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACE7B51575BF0300C50BE0 /* cmdutils.c */; };
+		84ACE7C01575BF0300C50BE0 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84ACE7BA1575BF0300C50BE0 /* utils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* stormplayAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stormplayAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* stormplayAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stormplayAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* stormplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stormplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* stormplay_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stormplay_Prefix.pch; sourceTree = "<group>"; };
+		848BCD61156C830A00809F28 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		848BCD62156C831800809F28 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		848BCD64156C832800809F28 /* playAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playAudio.h; sourceTree = "<group>"; };
+		848BCD65156C832D00809F28 /* playAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playAudio.m; sourceTree = "<group>"; };
+		848BCD67156C835500809F28 /* hello_clip_8000_16bit_mono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hello_clip_8000_16bit_mono.h; sourceTree = "<group>"; };
+		848BCD68156C835C00809F28 /* pic_352x288_rgb565.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pic_352x288_rgb565.h; sourceTree = "<group>"; };
+		848BCDE9156CE1D800809F28 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		848BCDEB156CE1FC00809F28 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		848BCDF1156CE2C100809F28 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84ACDFBC156E98BF00C50BE0 /* SDL_events.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_events.c; sourceTree = "<group>"; };
+		84ACDFBD156E98BF00C50BE0 /* SDL_events_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_events_c.h; sourceTree = "<group>"; };
+		84ACDFBE156E98BF00C50BE0 /* SDL_quit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_quit.c; sourceTree = "<group>"; };
+		84ACDFBF156E98BF00C50BE0 /* SDL_sysevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_sysevents.h; sourceTree = "<group>"; };
+		84ACDFC1156E98BF00C50BE0 /* begin_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
+		84ACDFC2156E98BF00C50BE0 /* close_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
+		84ACDFC3156E98BF00C50BE0 /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
+		84ACDFC4156E98BF00C50BE0 /* SDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL.h; sourceTree = "<group>"; };
+		84ACDFC5156E98BF00C50BE0 /* SDL_active.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_active.h; sourceTree = "<group>"; };
+		84ACDFC6156E98BF00C50BE0 /* SDL_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_audio.h; sourceTree = "<group>"; };
+		84ACDFC7156E98BF00C50BE0 /* SDL_byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_byteorder.h; sourceTree = "<group>"; };
+		84ACDFC8156E98BF00C50BE0 /* SDL_cdrom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_cdrom.h; sourceTree = "<group>"; };
+		84ACDFC9156E98BF00C50BE0 /* SDL_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config.h; sourceTree = "<group>"; };
+		84ACDFCA156E98BF00C50BE0 /* SDL_config.h.default */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDL_config.h.default; sourceTree = "<group>"; };
+		84ACDFCB156E98BF00C50BE0 /* SDL_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SDL_config.h.in; sourceTree = "<group>"; };
+		84ACDFCC156E98BF00C50BE0 /* SDL_config_dreamcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_dreamcast.h; sourceTree = "<group>"; };
+		84ACDFCD156E98BF00C50BE0 /* SDL_config_macos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_macos.h; sourceTree = "<group>"; };
+		84ACDFCE156E98BF00C50BE0 /* SDL_config_macosx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_macosx.h; sourceTree = "<group>"; };
+		84ACDFCF156E98BF00C50BE0 /* SDL_config_minimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_minimal.h; sourceTree = "<group>"; };
+		84ACDFD0156E98BF00C50BE0 /* SDL_config_nds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_nds.h; sourceTree = "<group>"; };
+		84ACDFD1156E98BF00C50BE0 /* SDL_config_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_os2.h; sourceTree = "<group>"; };
+		84ACDFD2156E98BF00C50BE0 /* SDL_config_symbian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_symbian.h; sourceTree = "<group>"; };
+		84ACDFD3156E98BF00C50BE0 /* SDL_config_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_config_win32.h; sourceTree = "<group>"; };
+		84ACDFD4156E98BF00C50BE0 /* SDL_copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_copying.h; sourceTree = "<group>"; };
+		84ACDFD5156E98BF00C50BE0 /* SDL_cpuinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_cpuinfo.h; sourceTree = "<group>"; };
+		84ACDFD6156E98BF00C50BE0 /* SDL_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_endian.h; sourceTree = "<group>"; };
+		84ACDFD7156E98BF00C50BE0 /* SDL_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_error.h; sourceTree = "<group>"; };
+		84ACDFD8156E98BF00C50BE0 /* SDL_events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_events.h; sourceTree = "<group>"; };
+		84ACDFD9156E98BF00C50BE0 /* SDL_getenv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_getenv.h; sourceTree = "<group>"; };
+		84ACDFDA156E98BF00C50BE0 /* SDL_joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_joystick.h; sourceTree = "<group>"; };
+		84ACDFDB156E98BF00C50BE0 /* SDL_keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_keyboard.h; sourceTree = "<group>"; };
+		84ACDFDC156E98BF00C50BE0 /* SDL_keysym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_keysym.h; sourceTree = "<group>"; };
+		84ACDFDD156E98BF00C50BE0 /* SDL_loadso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_loadso.h; sourceTree = "<group>"; };
+		84ACDFDE156E98BF00C50BE0 /* SDL_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_main.h; sourceTree = "<group>"; };
+		84ACDFDF156E98BF00C50BE0 /* SDL_mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_mouse.h; sourceTree = "<group>"; };
+		84ACDFE0156E98BF00C50BE0 /* SDL_mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_mutex.h; sourceTree = "<group>"; };
+		84ACDFE1156E98BF00C50BE0 /* SDL_name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_name.h; sourceTree = "<group>"; };
+		84ACDFE2156E98BF00C50BE0 /* SDL_opengl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_opengl.h; sourceTree = "<group>"; };
+		84ACDFE3156E98BF00C50BE0 /* SDL_platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_platform.h; sourceTree = "<group>"; };
+		84ACDFE4156E98BF00C50BE0 /* SDL_quit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_quit.h; sourceTree = "<group>"; };
+		84ACDFE5156E98BF00C50BE0 /* SDL_rwops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_rwops.h; sourceTree = "<group>"; };
+		84ACDFE6156E98BF00C50BE0 /* SDL_stdinc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_stdinc.h; sourceTree = "<group>"; };
+		84ACDFE7156E98BF00C50BE0 /* SDL_syswm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_syswm.h; sourceTree = "<group>"; };
+		84ACDFE8156E98BF00C50BE0 /* SDL_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_thread.h; sourceTree = "<group>"; };
+		84ACDFE9156E98BF00C50BE0 /* SDL_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_timer.h; sourceTree = "<group>"; };
+		84ACDFEA156E98BF00C50BE0 /* SDL_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_types.h; sourceTree = "<group>"; };
+		84ACDFEB156E98BF00C50BE0 /* SDL_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_version.h; sourceTree = "<group>"; };
+		84ACDFEC156E98BF00C50BE0 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
+		84ACDFEE156E98BF00C50BE0 /* SDL_fatal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_fatal.c; path = sdl/SDL_fatal.c; sourceTree = "<group>"; };
+		84ACDFEF156E98BF00C50BE0 /* SDL_fatal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_fatal.h; path = sdl/SDL_fatal.h; sourceTree = "<group>"; };
+		84ACDFF0156E98BF00C50BE0 /* SDL_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_utils.c; path = sdl/SDL_utils.c; sourceTree = "<group>"; };
+		84ACDFF1156E98BF00C50BE0 /* SDL_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_utils.h; path = sdl/SDL_utils.h; sourceTree = "<group>"; };
+		84ACDFF2156E98BF00C50BE0 /* SDL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL.c; path = sdl/SDL.c; sourceTree = "<group>"; };
+		84ACDFF6156E98BF00C50BE0 /* SDL_syscond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_syscond.c; sourceTree = "<group>"; };
+		84ACDFF7156E98BF00C50BE0 /* SDL_sysmutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_sysmutex.c; sourceTree = "<group>"; };
+		84ACDFF8156E98BF00C50BE0 /* SDL_sysmutex_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_sysmutex_c.h; sourceTree = "<group>"; };
+		84ACDFF9156E98BF00C50BE0 /* SDL_syssem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_syssem.c; sourceTree = "<group>"; };
+		84ACDFFA156E98BF00C50BE0 /* SDL_systhread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_systhread.c; sourceTree = "<group>"; };
+		84ACDFFB156E98BF00C50BE0 /* SDL_systhread_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_systhread_c.h; sourceTree = "<group>"; };
+		84ACDFFC156E98BF00C50BE0 /* SDL_systhread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_systhread.h; sourceTree = "<group>"; };
+		84ACDFFD156E98BF00C50BE0 /* SDL_thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_thread.c; sourceTree = "<group>"; };
+		84ACDFFE156E98BF00C50BE0 /* SDL_thread_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_thread_c.h; sourceTree = "<group>"; };
+		84ACE000156E98BF00C50BE0 /* SDL_systimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_systimer.h; sourceTree = "<group>"; };
+		84ACE001156E98BF00C50BE0 /* SDL_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_timer.c; sourceTree = "<group>"; };
+		84ACE002156E98BF00C50BE0 /* SDL_timer_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_timer_c.h; sourceTree = "<group>"; };
+		84ACE004156E98BF00C50BE0 /* SDL_systimer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_systimer.c; sourceTree = "<group>"; };
+		84ACE016156E992100C50BE0 /* SDL_error_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_error_c.h; path = sdl/SDL_error_c.h; sourceTree = "<group>"; };
+		84ACE13C156F995800C50BE0 /* stormplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = stormplayViewController.xib; sourceTree = "<group>"; };
+		84ACE140156F99A700C50BE0 /* stormplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stormplayViewController.h; sourceTree = "<group>"; };
+		84ACE141156F99AF00C50BE0 /* stormplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stormplayViewController.m; sourceTree = "<group>"; };
+		84ACE7B51575BF0300C50BE0 /* cmdutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmdutils.c; sourceTree = "<group>"; };
+		84ACE7B61575BF0300C50BE0 /* cmdutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmdutils.h; sourceTree = "<group>"; };
+		84ACE7B71575BF0300C50BE0 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		84ACE7B81575BF0300C50BE0 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		84ACE7BA1575BF0300C50BE0 /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		84ACE7BB1575BF0300C50BE0 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* stormplay-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "stormplay-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				848BCDEA156CE1D800809F28 /* AudioToolbox.framework in Frameworks */,
+				848BCDEC156CE1FC00809F28 /* OpenGLES.framework in Frameworks */,
+				848BCDF2156CE2C100809F28 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848BCD64156C832800809F28 /* playAudio.h */,
+				848BCD65156C832D00809F28 /* playAudio.m */,
+				848BCD61156C830A00809F28 /* EAGLView.h */,
+				848BCD62156C831800809F28 /* EAGLView.m */,
+				84ACE140156F99A700C50BE0 /* stormplayViewController.h */,
+				84ACE141156F99AF00C50BE0 /* stormplayViewController.m */,
+				1D3623240D0F684500981E51 /* stormplayAppDelegate.h */,
+				1D3623250D0F684500981E51 /* stormplayAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* stormplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				84ACE7B21575BF0300C50BE0 /* player */,
+				84ACDFB8156E987300C50BE0 /* sdl */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				848BCDF1156CE2C100809F28 /* QuartzCore.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* stormplay_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				84ACE13C156F995800C50BE0 /* stormplayViewController.xib */,
+				848BCD68156C835C00809F28 /* pic_352x288_rgb565.h */,
+				848BCD67156C835500809F28 /* hello_clip_8000_16bit_mono.h */,
+				8D1107310486CEB800E47090 /* stormplay-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				848BCDE9156CE1D800809F28 /* AudioToolbox.framework */,
+				848BCDEB156CE1FC00809F28 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84ACDFB8156E987300C50BE0 /* sdl */ = {
+			isa = PBXGroup;
+			children = (
+				84ACE016156E992100C50BE0 /* SDL_error_c.h */,
+				84ACDFF2156E98BF00C50BE0 /* SDL.c */,
+				84ACDFEE156E98BF00C50BE0 /* SDL_fatal.c */,
+				84ACDFEF156E98BF00C50BE0 /* SDL_fatal.h */,
+				84ACDFF0156E98BF00C50BE0 /* SDL_utils.c */,
+				84ACDFF1156E98BF00C50BE0 /* SDL_utils.h */,
+				84ACDFC0156E98BF00C50BE0 /* include */,
+				84ACDFBB156E98BF00C50BE0 /* events */,
+				84ACDFF3156E98BF00C50BE0 /* thread */,
+				84ACDFFF156E98BF00C50BE0 /* timer */,
+			);
+			name = sdl;
+			sourceTree = "<group>";
+		};
+		84ACDFBB156E98BF00C50BE0 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDFBC156E98BF00C50BE0 /* SDL_events.c */,
+				84ACDFBD156E98BF00C50BE0 /* SDL_events_c.h */,
+				84ACDFBE156E98BF00C50BE0 /* SDL_quit.c */,
+				84ACDFBF156E98BF00C50BE0 /* SDL_sysevents.h */,
+			);
+			name = events;
+			path = sdl/events;
+			sourceTree = "<group>";
+		};
+		84ACDFC0156E98BF00C50BE0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDFC1156E98BF00C50BE0 /* begin_code.h */,
+				84ACDFC2156E98BF00C50BE0 /* close_code.h */,
+				84ACDFC3156E98BF00C50BE0 /* doxyfile */,
+				84ACDFC4156E98BF00C50BE0 /* SDL.h */,
+				84ACDFC5156E98BF00C50BE0 /* SDL_active.h */,
+				84ACDFC6156E98BF00C50BE0 /* SDL_audio.h */,
+				84ACDFC7156E98BF00C50BE0 /* SDL_byteorder.h */,
+				84ACDFC8156E98BF00C50BE0 /* SDL_cdrom.h */,
+				84ACDFC9156E98BF00C50BE0 /* SDL_config.h */,
+				84ACDFCA156E98BF00C50BE0 /* SDL_config.h.default */,
+				84ACDFCB156E98BF00C50BE0 /* SDL_config.h.in */,
+				84ACDFCC156E98BF00C50BE0 /* SDL_config_dreamcast.h */,
+				84ACDFCD156E98BF00C50BE0 /* SDL_config_macos.h */,
+				84ACDFCE156E98BF00C50BE0 /* SDL_config_macosx.h */,
+				84ACDFCF156E98BF00C50BE0 /* SDL_config_minimal.h */,
+				84ACDFD0156E98BF00C50BE0 /* SDL_config_nds.h */,
+				84ACDFD1156E98BF00C50BE0 /* SDL_config_os2.h */,
+				84ACDFD2156E98BF00C50BE0 /* SDL_config_symbian.h */,
+				84ACDFD3156E98BF00C50BE0 /* SDL_config_win32.h */,
+				84ACDFD4156E98BF00C50BE0 /* SDL_copying.h */,
+				84ACDFD5156E98BF00C50BE0 /* SDL_cpuinfo.h */,
+				84ACDFD6156E98BF00C50BE0 /* SDL_endian.h */,
+				84ACDFD7156E98BF00C50BE0 /* SDL_error.h */,
+				84ACDFD8156E98BF00C50BE0 /* SDL_events.h */,
+				84ACDFD9156E98BF00C50BE0 /* SDL_getenv.h */,
+				84ACDFDA156E98BF00C50BE0 /* SDL_joystick.h */,
+				84ACDFDB156E98BF00C50BE0 /* SDL_keyboard.h */,
+				84ACDFDC156E98BF00C50BE0 /* SDL_keysym.h */,
+				84ACDFDD156E98BF00C50BE0 /* SDL_loadso.h */,
+				84ACDFDE156E98BF00C50BE0 /* SDL_main.h */,
+				84ACDFDF156E98BF00C50BE0 /* SDL_mouse.h */,
+				84ACDFE0156E98BF00C50BE0 /* SDL_mutex.h */,
+				84ACDFE1156E98BF00C50BE0 /* SDL_name.h */,
+				84ACDFE2156E98BF00C50BE0 /* SDL_opengl.h */,
+				84ACDFE3156E98BF00C50BE0 /* SDL_platform.h */,
+				84ACDFE4156E98BF00C50BE0 /* SDL_quit.h */,
+				84ACDFE5156E98BF00C50BE0 /* SDL_rwops.h */,
+				84ACDFE6156E98BF00C50BE0 /* SDL_stdinc.h */,
+				84ACDFE7156E98BF00C50BE0 /* SDL_syswm.h */,
+				84ACDFE8156E98BF00C50BE0 /* SDL_thread.h */,
+				84ACDFE9156E98BF00C50BE0 /* SDL_timer.h */,
+				84ACDFEA156E98BF00C50BE0 /* SDL_types.h */,
+				84ACDFEB156E98BF00C50BE0 /* SDL_version.h */,
+				84ACDFEC156E98BF00C50BE0 /* SDL_video.h */,
+			);
+			name = include;
+			path = sdl/include;
+			sourceTree = "<group>";
+		};
+		84ACDFF3156E98BF00C50BE0 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDFF5156E98BF00C50BE0 /* pthread */,
+				84ACDFFC156E98BF00C50BE0 /* SDL_systhread.h */,
+				84ACDFFD156E98BF00C50BE0 /* SDL_thread.c */,
+				84ACDFFE156E98BF00C50BE0 /* SDL_thread_c.h */,
+			);
+			name = thread;
+			path = sdl/thread;
+			sourceTree = "<group>";
+		};
+		84ACDFF5156E98BF00C50BE0 /* pthread */ = {
+			isa = PBXGroup;
+			children = (
+				84ACDFF6156E98BF00C50BE0 /* SDL_syscond.c */,
+				84ACDFF7156E98BF00C50BE0 /* SDL_sysmutex.c */,
+				84ACDFF8156E98BF00C50BE0 /* SDL_sysmutex_c.h */,
+				84ACDFF9156E98BF00C50BE0 /* SDL_syssem.c */,
+				84ACDFFA156E98BF00C50BE0 /* SDL_systhread.c */,
+				84ACDFFB156E98BF00C50BE0 /* SDL_systhread_c.h */,
+			);
+			path = pthread;
+			sourceTree = "<group>";
+		};
+		84ACDFFF156E98BF00C50BE0 /* timer */ = {
+			isa = PBXGroup;
+			children = (
+				84ACE000156E98BF00C50BE0 /* SDL_systimer.h */,
+				84ACE001156E98BF00C50BE0 /* SDL_timer.c */,
+				84ACE002156E98BF00C50BE0 /* SDL_timer_c.h */,
+				84ACE003156E98BF00C50BE0 /* unix */,
+			);
+			name = timer;
+			path = sdl/timer;
+			sourceTree = "<group>";
+		};
+		84ACE003156E98BF00C50BE0 /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				84ACE004156E98BF00C50BE0 /* SDL_systimer.c */,
+			);
+			path = unix;
+			sourceTree = "<group>";
+		};
+		84ACE7B21575BF0300C50BE0 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				84ACE7B51575BF0300C50BE0 /* cmdutils.c */,
+				84ACE7B61575BF0300C50BE0 /* cmdutils.h */,
+				84ACE7B71575BF0300C50BE0 /* config.h */,
+				84ACE7B81575BF0300C50BE0 /* player.h */,
+				84ACE7BA1575BF0300C50BE0 /* utils.c */,
+				84ACE7BB1575BF0300C50BE0 /* utils.h */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* stormplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "stormplay" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stormplay;
+			productName = stormplay;
+			productReference = 1D6058910D05DD3D006BFB54 /* stormplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "stormplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* stormplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				84ACE008156E98BF00C50BE0 /* doxyfile in Resources */,
+				84ACE009156E98BF00C50BE0 /* SDL_config.h.default in Resources */,
+				84ACE00A156E98BF00C50BE0 /* SDL_config.h.in in Resources */,
+				84ACE13D156F995800C50BE0 /* stormplayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* stormplayAppDelegate.m in Sources */,
+				848BCD63156C831800809F28 /* EAGLView.m in Sources */,
+				848BCD66156C832D00809F28 /* playAudio.m in Sources */,
+				84ACE006156E98BF00C50BE0 /* SDL_events.c in Sources */,
+				84ACE007156E98BF00C50BE0 /* SDL_quit.c in Sources */,
+				84ACE00B156E98BF00C50BE0 /* SDL_fatal.c in Sources */,
+				84ACE00C156E98BF00C50BE0 /* SDL_utils.c in Sources */,
+				84ACE00D156E98BF00C50BE0 /* SDL.c in Sources */,
+				84ACE00F156E98BF00C50BE0 /* SDL_syscond.c in Sources */,
+				84ACE010156E98BF00C50BE0 /* SDL_sysmutex.c in Sources */,
+				84ACE011156E98BF00C50BE0 /* SDL_syssem.c in Sources */,
+				84ACE012156E98BF00C50BE0 /* SDL_systhread.c in Sources */,
+				84ACE013156E98BF00C50BE0 /* SDL_thread.c in Sources */,
+				84ACE014156E98BF00C50BE0 /* SDL_timer.c in Sources */,
+				84ACE015156E98BF00C50BE0 /* SDL_systimer.c in Sources */,
+				84ACE142156F99AF00C50BE0 /* stormplayViewController.m in Sources */,
+				84ACE7BE1575BF0300C50BE0 /* cmdutils.c in Sources */,
+				84ACE7C01575BF0300C50BE0 /* utils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stormplay_Prefix.pch;
+				INFOPLIST_FILE = "stormplay-Info.plist";
+				OTHER_CFLAGS = (
+					"-I./libffmpeg",
+					"-I./sdl",
+					"-I./sdl/include",
+				);
+				OTHER_LDFLAGS = (
+					"-L./libffmpeg/lib/x86_64",
+					"-lavcodec",
+					"-lavformat",
+					"-lavutil",
+					"-lswscale",
+					"-lswresample",
+					"-lz",
+				);
+				PRODUCT_NAME = stormplay;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stormplay_Prefix.pch;
+				INFOPLIST_FILE = "stormplay-Info.plist";
+				OTHER_LDFLAGS = (
+					"-L./libffmpeg/lib/x86_64",
+					"-lavcodec",
+					"-lavutil",
+					"-lswscale",
+					"-lavformat",
+					"-lswresample",
+					"-lz",
+				);
+				PRODUCT_NAME = stormplay;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-I./libffmpeg";
+				OTHER_LDFLAGS = (
+					"-L./libffmpeg/lib/i386",
+					"-lavcodec",
+					"-lavutil",
+					"-lswscale",
+					"-lavformat",
+					"-lswresample",
+					"-lz",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-I./libffmpeg";
+				OTHER_LDFLAGS = (
+					"-L./libffmpeg/lib/i386",
+					"-lavcodec",
+					"-lavutil",
+					"-lswscale",
+					"-lavformat",
+					"-lswresample",
+					"-lz",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "stormplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "stormplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
